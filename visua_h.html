@@ -50,59 +50,72 @@
 
 <body>
     <div class = "container">
-        <div class = Col-md-12>  
-            <div class = box comp_total>
-                <div class = Col-md-12>
-                    <div class = box compheader>
-                        <div class = comp_header>
-                            <br>
-                            <br>
-                            <h1>Comparison</h1>
-                        </div> 
-                    </div>
-                    
-                </div>
-                <div class = box comp>
-                    
-                    <div class = comp_sum>
-                        <a>Click any plot to get an in-depth analysis</a>
-                    </div>
-                    <div class = "comp_fig">
-                        <div class = "row">
-                            <div class = Col-md-6>
-                                <div class = com_title ><b>vs.Max Temperature</b></div>
-                                <a href = "visua_c.html"><img id="Fig1" src="Resources/assets/images/Fig1.png" alt="Fig1"style="width:500px;height:420px;"></a href>
-                            </div>
-                            <div class = Col-md-6>
-                                <div class = com_title><b>vs.Humidity</b></div>
-                                <a href = "visua_h.html"><img id="Fig1" src="Resources/assets/images/Fig2.png" alt="Fig1"style="width:500px;height:420px;"></a href>
-                            </div>
-                        </div>
-        
-                        <div class = "row">
-                            <div class = Col-md-6>
-                                <div class = com_title><b>vs.Cloudiness</b></div>
-                                <a href = "visua_t.html"><img id="Fig1" src="Resources/assets/images/Fig3.png" alt="Fig1"style="width:500px;height:420px;"></a href>
-                            </div>
-                            <div class = Col-md-6>
-                                <div class = com_title><b>vs.Wind Speed</b></div>
-                                <a href = "visua_w.html"><img id="Fig1" src="Resources/assets/images/Fig4.png" alt="Fig1"style="width:500px;height:420px;"></a href>
-                            </div>
-                        </div>
-    
-                    </div>
-                    
-
-
+      <div class = "row">
+        <div class = "col-md-8">
+          <div class = "box sum"> 
+            <div class = "title">
+              <br>
+              <br>
+              <h3>Humidity</h3>
             </div>
-            
+          <div class = " visu_real" >
+            <img id="Fig1" src="Resources/assets/images/Fig2.png" alt="Fig1" style="width:500px;height:420px;">
+          </div>
+          <div class = "sum" >
+              <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). 
+                More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year 
+                than the northern hemiphere. This may be due to the tilt of the earth at the time of the year this data was gathered.
+              </p>
+              <br>
+              <br>
+          </div>
 
-            </div>
+          </div>
         </div>
-
-
+  
+        <div class = "col-md-4">
+          <div class = "box vis"> 
+            <div class = "title">
+              <br>
+              <br>
+              <h4>Visualizations</h4><br>
+            </div>
+            <div class = "row">
+              <div class = " col-sm-6">
+                <div class = "v fig1">
+                  <img id="Fig1" src="Resources/assets/images/Fig1.png" alt="Fig1"style="width:150px;height:140px;">
+                </div>
+              </div>
+              <div class = " col-sm-6">
+                <div class = "v_fig1_1">
+                  <img id="Fig2" src="Resources/assets/images/Fig2.png" alt="Fig1"style="width:150px;height:140px;">
+                </div>
+              </div>
+            </div>
+            <div class = "row">
+              <div class = " col-sm-6">
+                <div class = "v fig1">
+                  <img id="Fig1" src="Resources/assets/images/Fig3.png" alt="Fig1"style="width:150px;height:140px;">
+                </div>
+              </div>
+              <div class = " col-sm-6">
+                <div class = "v fig2">
+                  <img id="Fig2" src="Resources/assets/images/Fig4.png" alt="Fig1"style="width:150px;height:140px;">
+                </div>
+              </div>
+            </div>
+            <br>
+            
+          </div>
+  
+        
+  
+  
+      </div>
     </div>
-</body>
-<div class="card-footer text-light bg-dark text-center" >
-  @ Copyright Coding Baoxing 2019
-</div>
+    </div>
+  </body>
+  <div class="card-footer text-light bg-dark text-center" >
+    @ Copyright Coding Baoxing 2019
+  </div>
+</html>

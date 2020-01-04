@@ -54,3 +54,24 @@ body{
 .card-footer{
   margin-top: 200px;
 }
+
+
+.v_fig1_1{
+  padding:1px;
+  border: 2px solid teal;
+  
+}
+
+.card-footer{
+  border-top: 5px solid teal;
+}
+
+.visu_real{
+  margin-left: 80px;
+}
+
+.sum{
+  color: darkblue;
+  margin-left: 30px;
+  max-width: 90%;
+}
